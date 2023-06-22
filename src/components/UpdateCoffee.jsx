@@ -1,5 +1,5 @@
 const UpdateCoffee = () => {
-  return <div></div>;
+  return <div>Update a Coffee</div>;
 };
 
 export default UpdateCoffee;
