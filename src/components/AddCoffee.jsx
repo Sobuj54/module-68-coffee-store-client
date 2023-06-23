@@ -42,6 +42,7 @@ const AddCoffee = () => {
             icon: "Success",
             confirmButtonText: "Cool",
           });
+          form.reset();
         }
       });
   };
