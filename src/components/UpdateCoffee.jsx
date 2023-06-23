@@ -31,8 +31,8 @@ const UpdateCoffee = () => {
     console.log(updatedCoffee);
 
     // send data to server in post method
-    fetch("http://localhost:5000/coffee", {
-      method: "POST",
+    fetch(`http://localhost:5000/coffee/${_id}`, {
+      method: "PUT",
       headers: {
         "content-type": "application/json",
       },
