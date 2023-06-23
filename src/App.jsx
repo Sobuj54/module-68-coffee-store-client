@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="m-20">
-      <h1 className="text-6xl text-center mb-10 text-purple-400">
+      <h1 className="text-6xl text-center font-bold mb-10 text-purple-400">
         Hot Hot Coffee {coffees.length}
       </h1>
       <div className="grid md:grid-cols-2 gap-7">
